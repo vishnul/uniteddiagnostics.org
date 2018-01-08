@@ -304,13 +304,13 @@
         		    jQuery('#wordpress-carousel-free-clients').slick({
 			        infinite: true,
 			        slidesToShow: 8,
-			        slidesToScroll: 2,
+			        slidesToScroll: 4,
 			        prevArrow: "<div class='slick-prev'><i class='fa fa-angle-left'></i></div>",
 	                nextArrow: "<div class='slick-next'><i class='fa fa-angle-right'></i></div>",
 			        dots: false,
 			        arrows: true,
 			        autoplay: true,
-
+autoplaySpeed: 8000,
 		            responsive: [
 						    {
 						      breakpoint: 1199,
@@ -321,19 +321,19 @@
 						    {
 						      breakpoint: 979,
 						      settings: {
-						        slidesToShow: 6
+						        slidesToShow: 8
 						      }
 						    },
 						    {
 						      breakpoint: 767,
 						      settings: {
-						        slidesToShow: 4
+						        slidesToShow: 4	
 						      }
 						    },
 						    {
 						      breakpoint: 479,
 						      settings: {
-						        slidesToShow: 1
+						        slidesToShow: 4
 						      }
 						    }
 						  ]

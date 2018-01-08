@@ -58,8 +58,7 @@
 		display: inline-block !important;
 		margin: 0 !important;
 		padding: 0 20px !important;
-		border-left: 1px solid #EEE !important;
-		border-right: 1px solid #EEE !important;
+		
 	}
 	#intro {
 	}
@@ -103,8 +102,7 @@
 		z-index: 1;
 		position: relative;
 		width: 60px;
-		border-left: 1px solid #EEE;
-		border-right: 1px solid #EEE
+		
 	}
 	#header-responsive {
 		display: block;
