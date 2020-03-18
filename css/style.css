@@ -8909,3 +8909,71 @@ margin: 15px 0 15px 0;
     padding: 19px 15px;
 }
 }
+/*Find this ID in Line number 1294 and Replace below updated ID  
+#header-sticky .header-links > ul > li a {
+	font-size: 13px;
+	 padding: 29px 20px; 
+}*/
+/*Find this ID in Line number 1294 and Replace below updated ID */
+#header-sticky .header-links > ul > li a {
+	font-size: 13px;
+/*	padding: 29px 20px; */
+	 padding: 16px 20px;
+		background-color:#ffffff;
+}
+
+
+/*Add below line in CSS file for dropdown sub-menu */
+
+.dropbtn {
+ 
+  
+  padding:2px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black; 
+ padding: 2px 2px;
+  text-decoration: none;
+  display: block;
+  border: grey solid 1px;
+  border-radius:8px;
+}
+
+.dropdown-content a:hover { }
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+		 
+}
+.three-section-testimonal-left {
+    width: 27.33%;
+    margin: 25px;
+    float: left;
+    text-align: center;
+    /* width: 100%; */
+}
+
+ 
