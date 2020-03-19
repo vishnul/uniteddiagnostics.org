@@ -1293,7 +1293,8 @@ li.pag-next {
 #header .header-links > ul > li a,
 #header-sticky .header-links > ul > li a {
 	font-size: 13px;
-	padding: 29px 20px;
+	padding: 16px 20px;
+	background-color:#ffffff;
 }
 #header .header-links > ul > li.menu-parent > a:after,
 #header-sticky .header-links > ul > li.menu-parent > a:after {
@@ -8909,21 +8910,6 @@ margin: 15px 0 15px 0;
     padding: 19px 15px;
 }
 }
-/*Find this ID in Line number 1294 and Replace below updated ID  
-#header-sticky .header-links > ul > li a {
-	font-size: 13px;
-	 padding: 29px 20px; 
-}*/
-/*Find this ID in Line number 1294 and Replace below updated ID */
-#header-sticky .header-links > ul > li a {
-	font-size: 13px;
-/*	padding: 29px 20px; */
-	 padding: 16px 20px;
-		background-color:#ffffff;
-}
-
-
-/*Add below line in CSS file for dropdown sub-menu */
 
 .dropbtn {
  
@@ -8948,7 +8934,8 @@ margin: 15px 0 15px 0;
 }
 
 .dropdown-content a {
-  color: black; 
+  color: black;
+ /* padding: 12px 16px;*/
  padding: 2px 2px;
   text-decoration: none;
   display: block;
@@ -8968,12 +8955,3 @@ margin: 15px 0 15px 0;
   width: 40%;
 		 
 }
-.three-section-testimonal-left {
-    width: 27.33%;
-    margin: 25px;
-    float: left;
-    text-align: center;
-    /* width: 100%; */
-}
-
- 
